@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #C4DBC8;
+}
+
+
+/*Banner*/
+.banner {
+  text-align: center;
+  background-color: #E34B6A;
+  color:#C4DBC8;
+  width: 660px;
+  height: 50px;
+  padding: 1px;
+  margin: auto;
+  border-radius: 10px 10px 0 0;
+  font-family: 'Prompt', sans-serif ;
+}
+
+/* Card */
+.card{
+  height: 400px;
+  width: 700px;
+  margin: auto;
+  padding:20px 20px 0px 20px; 
+}
+
+.card--block{
+  float: left;
+  border-radius: 5px;
+  height: 33%;
+  width: 33%;
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.card--image{
+  height:100%;
+  width:100%;
+}
+
+.card--locationName{
+  letter-spacing: 2px;
+  padding: 0px 10px 0px 0px;
+  font-size: 14px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.gray{
+  font-size: 14px;
+  color:gray;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.card--title{
+  font-family: 'Prompt', sans-serif;
+  margin-top:40px;
+  margin-bottom: 0px;
+}
+.card--travel{
+  font-family: 'Prompt', sans-serif;
+  font-size: 15px;
+  margin-top:0px;
+}
+.card--description{
+  font-size: 14px;
+  font-family: 'Prompt', sans-serif;
+  overflow:hidden;
+}
